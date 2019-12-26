@@ -575,7 +575,7 @@ h3{
 }
 
 .home-sections{
-  margin:7rem 0; 
+  margin:2rem 0; 
   width: 100%;
   height: 12px;
   border-bottom: 1px solid #ddd ;
@@ -999,9 +999,7 @@ h5{
 }
 
 .introduction{
-  /*background-color:#eee;*/
-  margin: 12rem 0;
-
+  margin: 2rem 0;
 }
 
 .content-w-bg{
@@ -1046,10 +1044,6 @@ h5{
 #projects{
   margin-bottom: 5rem;
 }
-
-
-
-
 
 .menu-subitems li{
   margin-bottom:0.5rem;
@@ -1227,7 +1221,7 @@ header {
 /* Styles for overlay on hover on image*/
 
 
-/*.overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1317,7 +1311,7 @@ header {
   background: #000;
   transition: width .4s ease;
   -webkit-transition: width .4s ease;
-}*/
+}
 
 table{
   width: 100%;
