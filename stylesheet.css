@@ -73,6 +73,7 @@ strong{
 
 body{ 
   font-family: "Work Sans", sans-serif;
+  font-size: 1.0875rem;
   line-height: 1.7;
   padding:0;
   margin:10rem 0 0 0;
@@ -217,18 +218,17 @@ body{
 }
 
 
-
 h1{
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
-  font-size:2.1875rem;
-  margin-bottom:0px;
+  font-size: 2.1875rem;
+  margin-bottom: 0px;
   line-height: 1.5;
   color:#000;
 }
 
 .post h2{
-  margin-bottom:4rem;
+  margin-bottom:2rem;
   color:#000;
 }
 
@@ -963,7 +963,7 @@ hr{
 
 h4{
   font-family: "Work Sans", sans-serif;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color:#000;
   font-weight: 400;
