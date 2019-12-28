@@ -40,35 +40,16 @@
 		</script>
 	</header>
 
-	<!-- Navigation bar for mobile view -->
-	<nav id="hamburger_nav" role="navigation" class="animated fadeInDown">
-		<div class="menu">
-			<input type="checkbox"/>
-			<span></span>
-			<span></span>
-			<span></span>
-			<div class="menu-items"> 
-				<ul class="menu-subitems">
-					<li><a href="index.html">Projects</a> </li>
-					<li><a href="bio.html">About</a> </li>
-					<li><a href="files/Resume_Akansha.pdf"  target="_blank">Resume</a></li>
-					<li><a href="https://www.linkedin.com/in/guptaakansha" target="_blank">Linkedin</a></li>
-					<li><a href="mailto:akanshagzb@gmail.com" target="_blank">Email</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
 	<div class="post">
 
 		<div class="header">
 			<div class="content">
-				<h1 class="text-width">Credit Report Analysis Service</h1>	
+				<h1 class="text-width">Designing a credit report analysis and reporting service.</h1>	
 				<p class="project-story text-width">				
-					Designed and conducted split testing on the landing page and dashboard of the web applications, 
-					to improve conversions, reduce drop-off and incrase retention.
+					Designed the landing page and the dashboard for providing insights into the users credit report.
+					Conducted split testing to improve conversion, reduce drop-off and improve retention.
 				</p>
-				<img class="img-border post-image" src="images/Avanti_mockup6.png">
+				<img class="img-border post-image" src="images/scofit_preview.jpg">
 			</div>
 		</div>
 
@@ -131,9 +112,9 @@
 					had to be rejected due to poor credit history. This included around 10,000 users spread over five cities in India, 
 					from different backgrounds. 
 				</p>
-				<div class="post-image text-width">
+				<!-- <div class="post-image text-width">
 					<img src="images/scofit_user_research.png">
-				</div>
+				</div> -->
 				<h3>Conclusions of primary and secondary research</h3>
 				<p>
 					Around 70% of the interviewed were willing to subscribe to a paid plan for quarterly reports. 45% of the people 
@@ -149,12 +130,30 @@
 			<!-- End User Research -->
 
 			<!-- Start Ideation -->
-			<div class="text-width"><h2><span class="head-style">Ideation</span></h2></div>
+			<div class="text-width"><h2><span class="head-style">Organizing the Layouts</span></h2></div>
 			<div class="text-width">
-				<h3>Defining the user journey</h3>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>
+				<h3>Summary - Overview of Report</h3>
+				<p>
+					The Summary page gives the user a quick overview of the different factors in their report. 
+					Considering the lack of real estate on a mobile view, we restricted the content to a few key aspects - 
+					the current score and its change from the previous report if available; active loan accounts and credit cards; 
+					and highlights of the top factors reducing your Credit Score
+				</p>
+			</div>
+			<div class="post-image">
+				<img src="images/scofit_layout_1.png">
+			</div>				
+			<div class="text-width">
+				<h3>Analysis of Factors</h3>
+				<p>
+					The summary page gives the user a quick overview of the different factors in their report. 
+					Considering the lack of real estate on a mobile view, we restricted the content to a few key aspects - 
+					the current score and its change from the previous report if available; active loan accounts and credit cards; 
+					and highlights of the top factors reducing your Credit Score
+				</p>
+			</div>
+			<div class="post-image">
+				<img src="images/scofit_layout_2.png">
 			</div>
 			<!-- End Ideation -->
 
@@ -166,41 +165,57 @@
 					One of the major constraints was to design for different states if the dashboard. Based on how much, 
 					or how elaborate the data of the user was, we had to design for 3 different states.
 				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>
+
+				<h4>1. Credit Age is lesser than 6 months</h4>
+				<p>
+					The User was New To Credit, and had no credit history or their history is recent enough to not be 
+					assigned a score - the dashboard of this user would barely have enough information for metrics and 
+					would have to rely on generic tips and suggestions on how to achieve a good score.
+				</p>
+				<h4>2. Credit Age is between 6 months to a Year</h4>
+				<p>
+					User has a credit history of more than 6 months, but less than a year - For such users, 
+					we designed a minimal dashboard with details on current loans and credit cards, with useful 
+					tips on payments to maintain a good score, or improve from a poor one.
+				</p>
+				<h4>3. Credit Age is more than a Year</h4>
+				<p>
+					TUser has a credit history of more than a year - this user would have the full-feature version of the dashboard. 
+					Most of our users belonged to this category.
+				</p>
+
+				<h3>Feedback on the Content and Suggestions</h3>
+				<p>
+					The success of the product depended entirely on how useful the user found the content to be. 
+					To validate the effectiveness of this, we placed feedback forms, and buttons to upvote/ downvote the 
+					suggestions that we provided them.
+				</p>
 			</div>
 			<!-- End Design Chanlllenges -->
 
 			<!-- Start Prototyping -->
-			<div class="text-width"><h2><span class="head-style">Prototyping and Testing</span></h2></div>
-			<div class="text-width">
-				<h3>High fidelity prototypes</h3>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>				
-				<h3>Colors and Typography</h3>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>
-			</div>
-			<!-- End Prototyping -->
+			<div class="text-width"><h2><span class="head-style">High Fidelity Prototypes</span></h2></div>
+			<p class="text-width">
+				Based on our study and findings, we designed the initial prototype of the app. 
+				The designs went through several iterations through this period and continue to be improved with constant 
+				feedback from our customers.
+			</p>
+			<img class="img-border post-image" src="images/scofit_prototype_1.jpg">
+			<img class="img-border post-image" src="images/scofit_prototype_2.jpg">
+			<img class="img-border post-image" src="images/scofit_prototype_3.jpg">
+			<img class="img-border post-image" src="images/scofit_prototype_4.png">
+			<img class="img-border post-image" src="images/scofit_prototype_5.png">
 			
+			<!-- End Prototyping -->
+
 		</div>
 		
-		<!-- <div>
-			<a href="hacker_earth_recruit.html" class="next-proj-button"> </a>
-		</div> -->
 		<div class="projects-bottom">
 			<div class="content">
 				<div class="col-3"> 
-					<!-- <a href="hacker_earth_recruit.html" class="button">&larr; Previous Project</a>  -->
 				</div>
 				<div class="col-3 left-margin-3-col">
 					<a href="index.html" class="button">All Projects</a>
-				</div>
-				<div class="col-3 left-margin-3-col">
-					<a href="hacker_earth_recruit.html" class="button">Next <span class="hide-word">Project</span> &rarr;</a>
 				</div>
 			</div>
 		</div>

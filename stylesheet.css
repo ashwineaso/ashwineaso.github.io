@@ -46,9 +46,6 @@ strong{
   border:1px solid #ddd;
 }
 
-
-
-
 .projects-bottom a{
   -moz-transition: all .2s ease-in;
   -o-transition: all .2s ease-in;
@@ -409,8 +406,6 @@ h2:before {
 }*/
 
 
-
-
 progress {
   /* Positioning */
   position: fixed;
@@ -527,7 +522,6 @@ h3{
 
 #story p{
   margin-top: 0;
-
 }
 
 .project-story{
@@ -649,9 +643,10 @@ body img{
 and (max-width: 559px){
 
 
-  h1{
-    font-weight: 600;
-  }
+ h1{
+   font-weight: 600;
+ }
+
  .menu-float-right{
   display: none;
  }
@@ -684,9 +679,6 @@ and (min-width: 560px){
   .menu_contact{
     display: none !important;
   }
-  
-
-
 }
 
 @media only screen
@@ -1158,7 +1150,6 @@ header {
     top: -76px;
 }
 
-
 .menu-float-left{
   float:left;
 }
@@ -1180,17 +1171,11 @@ header {
   height: 0;
 }
 
-
-
-
-
-
 .thin_line{
   border-top:1px solid #ddd;
   position: relative;
   margin-bottom: 4rem;
 }
-
 
 .thick_line{
   border-top:3px solid #000;
