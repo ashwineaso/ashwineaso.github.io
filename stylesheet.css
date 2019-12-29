@@ -80,9 +80,6 @@ body{
   color:#333;
 }
 
-/*.post, #projects, .projects-bottom{
-  padding:0 1.5rem;
-}*/
 
 .logo{
   font-family: "Work Sans", sans-serif;
@@ -97,98 +94,12 @@ body{
   margin-right: auto;
 }
 
-#occupancy .text-width .button{
-  color:#2E7EB2;
-}
-
-
-
-#occupancy .text-width .text-link{
-  color:#2E7EB2;
-}
-
-#occupancy .text-width a{
-  color:#2E7EB2;
-}
-
-#herecruit .text-width .button{
-  color:#1F70C7;
-}
-
-#herecruit h4{
-  color:#1F70C7;
-}
-
 #gdot h4{
   color:#2B65AC;
 }
 
 
-#herecruit .text-width a{
-  color:#1F70C7;
-}
 
-#herecruit .text-width .text-link{
-  color:#1F70C7;
-}
-
-#cc .text-width .button{
-  color:#3BA946;
-}
-
-#cc .text-width a{
-  color:#3BA946;
-}
-
-
-#cc .text-width .text-link{
-  color:#3BA946;
-}
-
-#cc #progressBar::-webkit-progress-value {
-  background-color: #3BA946;
-}
-
-#cc #progressBar::-moz-progress-bar {
-  background-color: #3BA946;
-}
-
-#acms .text-width .button{
-  color:#c5645e;
-}
-#acms h4 {
-  color:#c5645e;
-}
-
-#acms #progressBar::-webkit-progress-value {
-  background-color: #c5645e;
-}
-
-#acms #progressBar::-moz-progress-bar {
-  background-color: #c5645e;
-}
-
-
-
-#acms .text-width a{
-  color:#c5645e;
-}
-
-#xdchallenge .text-width .button{
-  color:#4758A1;
-}
-
-#xdchallenge .text-width a, #xdchallenge h2{
-  color:#4758A1;
-}
-
-#xdchallenge #progressBar::-webkit-progress-value {
-  background-color: #4758A1;
-}
-
-#xdchallenge #progressBar::-moz-progress-bar {
-  background-color: #4758A1;
-}
 #me .text-width .button{
   color:#5D8D23;
 }
@@ -271,140 +182,6 @@ h2{
   /*margin-left: 8px;*/
   margin-bottom: 3rem;
 }
-
-#gdot h2:before, #gdot h2 {
-  border-color: #2B65AC;
-
-}
-
-#gdot .head-style{
-  color: #2B65AC;
-}
-
-#herecruit h2:before, #herecruit h2 {
-  border-color: #1F70C7;
-
-}
-
-#herecruit .text-width a:after{
-  background: #1F70C7;
-}
-
-#herecruit .head-style{
-  color: #1F70C7;
-}
-
-#herecruit #progressBar::-webkit-progress-value {
-  background-color: #1F70C7;
-}
-
-#herecruit #progressBar::-moz-progress-bar {
-  background-color: #1F70C7;
-}
-
-#cc h2:before, #cc h2 {
-  border-color: #3BA946;
-
-}
-
-#cc .head-style{
-  color: #3BA946;
-}
-
-#cc .text-width a:after{
-  background: #3BA946;
-}
-
-
-
-
- #occupancy h2 {
-  border-color: #2E7EB2;
-
-}
-
-#occupancy .text-width a:after{
-  background: #2E7EB2;
-}
-
-#occupancy .head-style{
-  color: #2E7EB2;
-}
-
-#occupancy #progressBar::-webkit-progress-value {
-  background-color: #2E7EB2;
-}
-
-#occupancy #progressBar::-moz-progress-bar {
-  background-color: #2E7EB2;
-}
-
-#me h2 {
-  border-color: #5D8D23;
-}
-
-#me .text-width a:after{
-  background: #5D8D23;
-}
-
-#me .head-style{
-  color: #5D8D23;
-}
-
-#me #progressBar::-webkit-progress-value {
-  background-color: #5D8D23;
-}
-
-#me #progressBar::-moz-progress-bar {
-  background-color: #5D8D23;
-}
-
-#acms h2 {
-  border-color: #c5645e;
-}
-
-#xdchallenge h2 {
-  border-color:#4758A1;
-}
-
-
-#twr h2, #pc h2{
-  border-color:#000;
-}
-
-#xdchallenge .text-width a:after{
-  background: #4758A1;
-}
-
-#xhchallenge .head-style{
-  color: #4758A1;
-}
-
-#acms .text-width a:after{
-  background: #c5645e;
-}
-
-#acms .head-style{
-  color: #c5645e;
-}
-
-/*h2,
-h2:before {
-  box-sizing: border-box;
-}
-
-h2:before {
-  border: 2px solid;
-  content: "";
-  display: block;
-  height: 116%;
-  position: absolute;
-  width: 102%;
-  top: -10px;
-  left: -10px;
-  z-index: -1;
-}*/
-
 
 progress {
   /* Positioning */
@@ -1045,6 +822,7 @@ h5{
     margin-top: 2.5rem;
     margin-bottom: 5rem;
 }
+
 .post-image-2{
   margin-top: 2rem;
     margin-bottom: 3rem;
