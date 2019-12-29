@@ -11,7 +11,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" ></script>
 	<script src="myscript.js"></script>
 </head>
-<body id="acms">
+<body>
 	<progress value="0" id="progressBar">
 		<div class="progress-container">
 			<span class="progress-bar"></span>
@@ -40,25 +40,6 @@
 		</script>
 	</header>
 
-	<!-- Navigation bar for mobile view -->
-	<nav id="hamburger_nav" role="navigation" class="animated fadeInDown">
-		<div class="menu">
-			<input type="checkbox"/>
-			<span></span>
-			<span></span>
-			<span></span>
-			<div class="menu-items"> 
-				<ul class="menu-subitems">
-					<li><a href="index.html">Projects</a> </li>
-					<li><a href="bio.html">About</a> </li>
-					<li><a href="files/Resume_Akansha.pdf"  target="_blank">Resume</a></li>
-					<li><a href="https://www.linkedin.com/in/guptaakansha" target="_blank">Linkedin</a></li>
-					<li><a href="mailto:akanshagzb@gmail.com" target="_blank">Email</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
 	<div class="post">
 
 		<div class="header">
@@ -67,7 +48,7 @@
 				<p class="project-story text-width">
           Defined the user jounery for quick onboarding and designed the wireframes for the initial prototype.
         </p>
-				<img class="img-border post-image" src="images/Avanti_mockup6.png">
+				<img class="img-border post-image" src="images/engurutalk_preview.jpg">
 			</div>
 		</div>
 
@@ -143,91 +124,83 @@
           The process we considered started from the point the user had on-boarded and is browsing through the available courses. 
           The first conversion from a user to a customer happens when the user completes the booking of a session.
         </p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>
 			</div>
+      <img class="post-image img-border" src="images/engurutalk_process_flow.png">
 			<!-- End Ideation -->
 
 			<!-- Start Design Challenges -->
 			<div class="text-width"><h2><span class="head-style">Wireframing the process</span></h2></div>
 			<div class="text-width">
-
 				<h3>Browsing the available courses.</h3>
 				<p>
           We started with two courses Business English and General English. Both of them had three levels - Beginner, 
           Intermediate and Advanced. The user could review lessons and topics in each level choose their learning level based on it.
-				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
+        </p>
+      </div>
+			<img class="post-image img-border" src="images/engurutalk_wireframe_1.png">
 
+      <div class="text-width">
         <h3>Viewing the details of a Course</h3>
 				<p>
           Users can book classes to up to one week in advance. They can choose a preferred slot from a list of available slots. 
           We designed the courses in the way that one lesson is taught per day, in every session.
-				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
+        </p>
+      </div>
+      <img class="post-image img-border" src="images/engurutalk_wireframe_2.png">
 
+      <div class="text-width">
         <h3>Choosing the session</h3>
 				<p>
           User can choose the date of the session in the next 7 days. The time slots of the available session will be displayed. 
           Filled session slots will not be selectable. User can choose an unfilled one and confirm to proceed.
-				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
-        
+        </p>
+      </div>
+      <img class="post-image img-border" src="images/engurutalk_wireframe_3.png">
+      
+      <div class="text-width">
         <h3>Reviewing the details</h3>
 				<p>
           Upon selection of the slot, the user can review the details of the session - such as the course, lesson, 
           timing and cost, before moving on to payment.
-				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
-        
+        </p>
+      </div>
+      <img class="post-image img-border" src="images/engurutalk_wireframe_4.png">
+      
+      <div class="text-width">
         <h3>Confirming and Paying</h3>
 				<p>
           One a user books a slot, they can confirm it and make a payment. They can also choose to redeem a coupon code here. 
           Clicking the “Confirm and Pay” button then takes the user to the payment gateway where they can complete the payment.
-				</p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
-
-			</div>
+        </p>
+      </div>
+      <img class="post-image img-border" src="images/engurutalk_wireframe_5.png">
 			<!-- End Design Chanlllenges -->
 
 			<!-- Start Prototyping -->
 			<div class="text-width"><h2><span class="head-style">Design Constraints & Accessibility considerations</span></h2></div>
 			<div class="text-width">
-
         <h3>Multilingual support</h3>
         <p>
           None of our users was native English speakers, and a large majority had not received formal education with 
           English as their primary language. To address this issue, we had to design the entire application to support 
           multiple languages.
         </p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-        </div>
+      </div>
+
+      <div class="text-width">
         <p>
           Since our target demographic also included a lot of native Arabic speakers, we had to design the app to 
           support RTL languages too. This proved to be a harder challenge, as we had to adapt the alignments, 
           positioning, flow and interactions of several elements to suit this need.
         </p>
-        			
+      </div>
+      
+      <div class="text-width">
         <h3>Simple instructions in steps</h3>
         <p>
           The instructions to complete the booking we made to be clear and concise. This ensured that the user 
           would not have to guess at any point in the flow, as to what the next step would have to be.
         </p>
-				<div class="post-image text-width">
-					<img src="images/scofit_user_research.png">
-				</div>
 			</div>
 			<!-- End Prototyping -->
 			
@@ -235,8 +208,6 @@
 		
 		<div class="projects-bottom">
 			<div class="content">
-				<div class="col-3"> 
-				</div>
 				<div class="col-3 left-margin-3-col">
 					<a href="index.html" class="button">All Projects</a>
 				</div>
