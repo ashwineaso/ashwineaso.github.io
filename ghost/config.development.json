@@ -1,0 +1,20 @@
+{
+  "url": "http://localhost:2369/",
+  "paths": {
+    "contentPath": "/Users/a.zachariah/Development/ashwineaso/ashwineaso.github.io/ghost/content"
+  },
+  "server": {
+    "port": 2369,
+    "host": "127.0.0.1"
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local"
+}
