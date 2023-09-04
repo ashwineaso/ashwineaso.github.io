@@ -12,52 +12,61 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "Ashwin Easo Zachariah"
-  info = "Software Engineer"
-  description = "My thoughts on software development, programming, and other things I find interesting."
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpeg"
-  gravatar = "ashwineaso@gmail.com"
+author = "Ashwin Easo Zachariah"
+info = "Software Engineer"
+description = "My thoughts on software development, programming, and other things I find interesting."
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpeg"
+gravatar = "ashwineaso@gmail.com"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+faviconSVG = "/img/favicon.svg"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+dateFormat = "January 2, 2006"
+since = 2019
 
-  enableTwemoji = true
+enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+colorScheme = "auto"
+hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/ashwineaso/"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/ashwineaso/"
+
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/ashwineaso/"
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/ashwineaso/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/ashwineaso/"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+name = "Blog"
+weight = 1
+url  = "posts/"
+
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+name = "About"
+weight = 2
+url = "about/"
